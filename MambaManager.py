@@ -147,7 +147,7 @@ while True:
         print(f'\n{lg}[i] Checking for updates...')
         try:
             
-            version = requests.get('https://github.comSUKHPAL443/MAMBA-ADDER-PRO/main/version.txt')
+            version = requests.get('https://github.com/SUKHPAL443/MAMBA-ADDER/main/version.txt')
         except:
             print(f'{r} You are not connected to the internet')
             print(f'{r} Please connect to the internet and retry')
@@ -163,8 +163,8 @@ while True:
                     os.system('rm Mambadder.py')
                     os.system('rm MambaManager.py')
                 #os.system('del scraper.py')
-                os.system('curl -l -O https://SUKHPAL443.githubusercontent.com/SUKHPAL443/MAMBA-ADDER-PRO/main/MambaAdder.py')
-                os.system('curl -l -O https://SUKHPAL443.githubusercontent.com/SUKHPAL443/MAMBA-ADDER-PRO/main/MambaManager.py')
+                os.system('curl -l -O https://SUKHPAL443.githubusercontent.com/SUKHPAL443/MAMBA-ADDER/main/MambaAdder.py')
+                os.system('curl -l -O https://SUKHPAL443.githubusercontent.com/SUKHPAL443/MAMBA-ADDER/main/MambaManager.py')
                 print(f'{gr}[*] Updated to version: {version.text}')
                 input('Press enter to exit...')
                 exit()
